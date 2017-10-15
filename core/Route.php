@@ -53,6 +53,6 @@ class Route
 
     public static function View404()
     {
-        echo 'Страница не найдена';
+        echo 'Not found';
     }
 }
