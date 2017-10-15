@@ -30,7 +30,7 @@ class Route
 
         $controller_name_explode = explode('_', $controller_name);
 
-        $class_name = ucfirst($controller_name_explode[0]);
+        $class_name = $controller_name_explode[0];
 
         if (file_exists($controller_path)){
             include $controller_path;
